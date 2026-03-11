@@ -8,5 +8,17 @@
   },
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuyoanhhh1312/CC-MTPTPM_Kiemtra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/thuyoanhhh1312/CC-MTPTPM_Kiemtra/issues"
+  },
+  "homepage": "https://github.com/thuyoanhhh1312/CC-MTPTPM_Kiemtra#readme"
 }
