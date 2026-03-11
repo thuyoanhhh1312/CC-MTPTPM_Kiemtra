@@ -30,3 +30,12 @@ h1 {
   color: #ffffff;
   font-weight: normal;
 }
+
+h2 {
+  margin: 0 0 20px 0;
+  padding: 10px 0 10px 15px;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: normal;
+  background-color: #440522;
+}
