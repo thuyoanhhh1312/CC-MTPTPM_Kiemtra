@@ -7,19 +7,19 @@ const PORT = 3000;
 app.use("/public", express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "index.html"));
+  res.sendFile(path.join(__dirname, "view", "index.html"));
 });
 
 app.get("/about", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "about.html"));
+  res.sendFile(path.join(__dirname, "view", "about.html"));
 });
 
 app.get("/products", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "products.html"));
+  res.sendFile(path.join(__dirname, "view", "products.html"));
 });
 
 app.get("/contact", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "contact.html"));
+  res.sendFile(path.join(__dirname, "view", "contact.html"));
 });
 
 app.listen(PORT, () => {
