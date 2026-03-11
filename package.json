@@ -1,0 +1,12 @@
+{
+  "name": "flower-shop-node",
+  "version": "1.0.0",
+  "description": "Flower shop website using Node.js and static HTML/CSS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
